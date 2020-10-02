@@ -1,0 +1,12 @@
+{
+    "name": "calendar/rgvc",
+    "description": "virtual schedule",
+    "require": {
+        "phpmailer/phpmailer": "^6.1"
+    },
+    "autoload": {
+        "classmap":[
+            "classes"
+        ]
+    }
+}

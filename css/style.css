@@ -1,0 +1,139 @@
+body {
+  background-image: linear-gradient(
+      rgba(62, 20, 20, 0.4),
+      rgba(62, 20, 20, 0.4)
+    ),
+    url(../images/wallpaper_4.png);
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  font-family: Lato;
+  font-weight: 300;
+  color: #555;
+}
+
+.wrapper {
+  background-color: #fff;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+  margin: 20px;
+}
+.top_nav {
+  background-image: linear-gradient(45deg, rgb(233, 233, 233), white);
+
+  position: relative;
+  top: 0;
+  display: inline-block;
+  padding: 20px;
+
+  font-weight: 300;
+  font-size: 30px;
+  font-family: Lato;
+  letter-spacing: 5px;
+
+  text-decoration: none;
+  color: #924857;
+}
+.text-virgilio-logo {
+  background-image: linear-gradient(to right, #8e3838, #b53636);
+  color: white;
+  padding: 2px;
+  border-radius: 2px;
+}
+.brand-link {
+  color: #924857;
+  transition-duration: 0.3s;
+}
+.brand-link:hover {
+  letter-spacing: 7px;
+  text-decoration: none;
+  color: #924857;
+}
+
+/* .notification-div {
+  border-radius: 10px;
+  background-image: linear-gradient(45deg,#f9d56d, #f1c073);
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  border-top: 1px solid rgba(0,0,0,0.3);
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+  transition-duration:0.2s;
+}
+.notification-div:hover {
+  border: 1px solid rgba(0,0,0,0.3);
+  background-image: linear-gradient(0deg,#f9d56d, #f1c073);
+} */
+
+.email-subscribe {
+  background-color: transparent;
+}
+.side-div {
+  background-image: linear-gradient(to right, white, rgb(238, 238, 238));
+}
+.side-div-inverse {
+  background-image: linear-gradient(to left, white, rgb(238, 238, 238));
+}
+.card-a {
+  transition-duration: 0.1s;
+}
+.card-a:hover {
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+}
+
+.admin-entry {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.date_div {
+  background-image: linear-gradient(to right, #8e3838, #b53636);
+  font-size: 25px;
+  color: black;
+}
+
+.date_div span {
+  color: white;
+}
+
+.el_css:hover {
+  text-decoration: none;
+  border-bottom: none;
+}
+.el_css:hover .target_ell_css {
+  letter-spacing: 4px;
+}
+
+.date_div.day {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.date_div .mos,
+.date_div .yr {
+  font-size: 18px;
+}
+
+.div-date-scheduled {
+  display: inline-flex;
+  border: 1px solid transparent;
+  border-bottom-color: black;
+  transition-duration: 0.1s;
+}
+
+.div-date-scheduled:hover {
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+}
+
+.circle {
+  display: block;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  background: #6b6b6b;
+}
+
+.hour {
+  font-size: 18px;
+}
